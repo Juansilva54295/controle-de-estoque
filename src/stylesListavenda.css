@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Estilo geral da aplicação */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Estilo da tabela */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+/* Estilo das células da tabela */
+.table-cell {
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0 0 1px 0;
+}
+
+/* Estilo do cabeçalho da tabela */
+.table-view .column-header {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Estilo dos botões */
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px;
+}
+.button-botaoConfirmar {
+    -fx-background-color: #0a8630;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5px 10px;
+}
+
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+
+/* Estilo dos labels */
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo do ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+/* Estilo do HBox e VBox */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
+.table-row-cell:selected {
+    -fx-background-color: #0096C9; /* Cor de fundo da linha selecionada */
+    -fx-text-fill: white; /* Cor do texto na linha selecionada */
+}

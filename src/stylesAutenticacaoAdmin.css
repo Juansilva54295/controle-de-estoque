@@ -1,0 +1,54 @@
+/* stylesAutenticacaoAdmin.css */
+
+/* Estilo do root (fundo da cena) */
+.root {
+    -fx-background-color: #f4f4f4; /* Cor de fundo */
+    -fx-font-family: "Arial";
+}
+
+/* Estilo do GridPane (container principal) */
+.grid-pane {
+    -fx-background-color: white; /* Cor de fundo do GridPane */
+    -fx-padding: 20px; /* Espaçamento interno */
+    -fx-border-radius: 8px; /* Bordas arredondadas */
+    -fx-background-radius: 8px; /* Bordas arredondadas */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0); /* Sombra */
+}
+
+/* Estilo dos campos de texto */
+.text-field, .password-field {
+    -fx-pref-width: 200px; /* Largura */
+    -fx-padding: 10px; /* Espaçamento interno */
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-border-color: #ccc; /* Cor da borda */
+    -fx-border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão */
+.button {
+    -fx-background-color: #007bff; /* Cor de fundo */
+    -fx-text-fill: white; /* Cor do texto */
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-padding: 10px 20px; /* Espaçamento interno */
+    -fx-border-radius: 4px; /* Bordas arredondadas */
+    -fx-cursor: hand; /* Cursor de mão ao passar o mouse */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo das labels */
+.label {
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-font-weight: bold; /* Negrito */
+}
+
+/* Estilo do Alert (caixa de diálogo de erro) */
+.alert {
+    -fx-background-color: #f8d7da; /* Cor de fundo */
+    -fx-text-fill: #721c24; /* Cor do texto */
+    -fx-border-color: #f5c6cb; /* Cor da borda */
+    -fx-border-radius: 4px; /* Bordas arredondadas */
+    -fx-padding: 10px; /* Espaçamento interno */
+}

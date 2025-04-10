@@ -1,0 +1,55 @@
+/* Estilo geral da VBox */
+.vbox {
+    -fx-background-color: #f4f4f4; /* Cor de fundo */
+    -fx-padding: 20px; /* Espaçamento interno */
+    -fx-alignment: center; /* Centraliza os elementos */
+    -fx-spacing: 10px; /* Espaçamento entre os elementos */
+}
+
+/* Estilo dos campos de texto */
+.campo-texto {
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-pref-width: 250px; /* Largura preferencial */
+    -fx-pref-height: 35px; /* Altura preferencial */
+    -fx-padding: 5px; /* Espaçamento interno */
+    -fx-background-color: #ffffff; /* Cor de fundo */
+    -fx-border-color: #cccccc; /* Cor da borda */
+    -fx-border-radius: 5px; /* Borda arredondada */
+    -fx-border-width: 1px; /* Largura da borda */
+}
+
+/* Estilo do ComboBox */
+.combo-box {
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-pref-width: 250px; /* Largura preferencial */
+    -fx-pref-height: 35px; /* Altura preferencial */
+    -fx-background-color: #ffffff; /* Cor de fundo */
+    -fx-border-color: #cccccc; /* Cor da borda */
+    -fx-border-radius: 5px; /* Borda arredondada */
+    -fx-border-width: 1px; /* Largura da borda */
+    -fx-alignment: center-left; /* Alinha o texto à esquerda */
+}
+
+/* Estilo dos botões */
+.botao {
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-pref-width: 250px; /* Largura preferencial */
+    -fx-pref-height: 35px; /* Altura preferencial */
+    -fx-padding: 10px; /* Espaçamento interno */
+    -fx-background-color: #0078d7; /* Cor de fundo */
+    -fx-text-fill: white; /* Cor do texto */
+    -fx-border-radius: 5px; /* Borda arredondada */
+    -fx-cursor: hand; /* Cursor de mão ao passar o mouse */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 1); /* Sombra */
+}
+
+.botao:hover {
+    -fx-background-color: #005bb5; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo da label de categoria */
+.label-categoria {
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-text-fill: #333333; /* Cor do texto */
+    -fx-alignment: center-left; /* Alinha o texto à esquerda */
+}

@@ -1,0 +1,146 @@
+/* Estilo geral da aplicação */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f4;
+}
+
+.menu-button:hover {
+    -fx-text-fill: #0078d7; /* Cor ao passar o mouse */
+}
+
+/* Estilo da aba lateral (Drawer) */
+.drawer {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: none;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+}
+
+.drawer .button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px; /* Espaçamento interno */
+    -fx-border-radius: 5px; /* Bordas arredondadas */
+    -fx-background-radius: 5px; /* Bordas arredondadas */
+    -fx-cursor: hand; /* Cursor de mão ao passar o mouse */
+
+    /* Definir tamanho fixo para todos os botões */
+    -fx-min-width: 150px; /* Largura mínima */
+    -fx-pref-width: 150px; /* Largura preferencial */
+    -fx-max-width: 150px; /* Largura máxima */
+
+    -fx-min-height: 40px; /* Altura mínima */
+    -fx-pref-height: 40px; /* Altura preferencial */
+    -fx-max-height: 40px; /* Altura máxima */
+}
+.drawer .button:hover {
+    -fx-background-color: #005bb5; /* Cor ao passar o mouse */
+}
+
+/* Estilo da tabela */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9; /* Linhas ímpares com fundo mais claro */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+}
+
+/* Estilo das células da tabela */
+.table-cell {
+    -fx-alignment: CENTER;
+    -fx-padding: 5px;
+}
+
+/* Estilo do campo de pesquisa */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Estilo do ComboBox */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+}
+
+/* Estilo do botão de pesquisa */
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-border-color: none; /* Remover borda */
+    -fx-border-width: 0; /* Remover borda */
+}
+
+.button:hover {
+    -fx-background-color: #005bb5; /* Cor ao passar o mouse */
+}
+
+/* Estilo do Label do valor total do estoque */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Estilo do HBox e VBox */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
+
+/* Estilo do BorderPane */
+.border-pane {
+    -fx-background-color: #f4f4f4;
+}
+
+/* Estilo específico para remover borda dos botões */
+.button.no-border {
+    -fx-border-color: none;
+    -fx-border-width: 0;
+    -fx-background-color: transparent; /* Opcional: remove o fundo */
+    -fx-background-radius: 0; /* Opcional: remove o arredondamento do fundo */
+}
